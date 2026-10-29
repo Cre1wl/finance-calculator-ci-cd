@@ -3,7 +3,7 @@ from finance_calculator import *
 def main():
     incomes = []
     expenses = []
-    
+
     print("ВЕРСИЯ 2.0")
 
     print("=== Калькулятор личных средств ===")
