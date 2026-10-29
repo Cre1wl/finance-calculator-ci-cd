@@ -16,7 +16,7 @@ def total_expenses(expenses):
 
 def balance(incomes, expenses):
     """Остаток средств (доходы минус расходы)."""
-    return total_income(incomes) + total_expenses(expenses)
+    return total_income(incomes) - total_expenses(expenses)
 
 def savings_rate(incomes, expenses):
     """Норма сбережений в процентах. Если доходов нет — возвращает 0.0."""
